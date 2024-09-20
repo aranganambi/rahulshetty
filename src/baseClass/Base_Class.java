@@ -25,7 +25,6 @@ public class Base_Class {
 	//browser_Launch
 	public static void browser_Launch() {
 		try {
-		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		}
 		catch (Exception e) {
