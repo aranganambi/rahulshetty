@@ -59,8 +59,8 @@ public class Base_Class {
 	}
 
 	// click
-	public static void clicks(WebElement clickin) {
-		clickin.click();
+	public static void clicks(WebElement click) {
+		click.click();
 	}
 
 	//move_element
